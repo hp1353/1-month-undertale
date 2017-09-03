@@ -1,0 +1,290 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{AD16B71B-5F6B-46C8-A338-E5FC35D59DCD}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>ConsoleApplication1</RootNamespace>
+    <ProjectName>winApi</ProjectName>
+    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>NotSet</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="action.h" />
+    <ClInclude Include="actionManager.h" />
+    <ClInclude Include="actionTest.h" />
+    <ClInclude Include="animation.h" />
+    <ClInclude Include="aStar.h" />
+    <ClInclude Include="battle.h" />
+    <ClInclude Include="BnS.h" />
+    <ClInclude Include="bullets.h" />
+    <ClInclude Include="button.h" />
+    <ClInclude Include="camera.h" />
+    <ClInclude Include="carrier.h" />
+    <ClInclude Include="commonMacroFunction.h" />
+    <ClInclude Include="database.h" />
+    <ClInclude Include="dummy.h" />
+    <ClInclude Include="effect.h" />
+    <ClInclude Include="effectManager.h" />
+    <ClInclude Include="effectTest.h" />
+    <ClInclude Include="ending.h" />
+    <ClInclude Include="enemy.h" />
+    <ClInclude Include="enemyManager.h" />
+    <ClInclude Include="firstbattle.h" />
+    <ClInclude Include="gameNode.h" />
+    <ClInclude Include="gameStudy.h" />
+    <ClInclude Include="ghostGoblinScene.h" />
+    <ClInclude Include="image.h" />
+    <ClInclude Include="imageManager.h" />
+    <ClInclude Include="jump.h" />
+    <ClInclude Include="keyAnimationManager.h" />
+    <ClInclude Include="keyManager.h" />
+    <ClInclude Include="kitchen.h" />
+    <ClInclude Include="knight.h" />
+    <ClInclude Include="last.h" />
+    <ClInclude Include="leftroom.h" />
+    <ClInclude Include="minion.h" />
+    <ClInclude Include="molbattle.h" />
+    <ClInclude Include="monster1.h" />
+    <ClInclude Include="monster2.h" />
+    <ClInclude Include="myroom.h" />
+    <ClInclude Include="nobody.h" />
+    <ClInclude Include="opening.h" />
+    <ClInclude Include="pixelCollision.h" />
+    <ClInclude Include="player.h" />
+    <ClInclude Include="playerdie.h" />
+    <ClInclude Include="progressBar.h" />
+    <ClInclude Include="randomFunction.h" />
+    <ClInclude Include="rightroom.h" />
+    <ClInclude Include="sceneManager.h" />
+    <ClInclude Include="selectScene.h" />
+    <ClInclude Include="ship.h" />
+    <ClInclude Include="shipManager.h" />
+    <ClInclude Include="singletonBase.h" />
+    <ClInclude Include="soundManager.h" />
+    <ClInclude Include="space.h" />
+    <ClInclude Include="spaceShip.h" />
+    <ClInclude Include="stage1.h" />
+    <ClInclude Include="stage10.h" />
+    <ClInclude Include="stage11.h" />
+    <ClInclude Include="stage12.h" />
+    <ClInclude Include="stage13.h" />
+    <ClInclude Include="stage14.h" />
+    <ClInclude Include="stage15.h" />
+    <ClInclude Include="stage15battle.h" />
+    <ClInclude Include="stage15_store.h" />
+    <ClInclude Include="stage16.h" />
+    <ClInclude Include="stage17.h" />
+    <ClInclude Include="stage18.h" />
+    <ClInclude Include="stage18_21_traproom.h" />
+    <ClInclude Include="stage19.h" />
+    <ClInclude Include="stage2.h" />
+    <ClInclude Include="stage20.h" />
+    <ClInclude Include="stage21.h" />
+    <ClInclude Include="stage22.h" />
+    <ClInclude Include="stage22_1.h" />
+    <ClInclude Include="stage22_2.h" />
+    <ClInclude Include="stage2_1.h" />
+    <ClInclude Include="stage3.h" />
+    <ClInclude Include="stage4.h" />
+    <ClInclude Include="stage5.h" />
+    <ClInclude Include="stage6.h" />
+    <ClInclude Include="stage7.h" />
+    <ClInclude Include="stage7battle.h" />
+    <ClInclude Include="stage8.h" />
+    <ClInclude Include="stage9.h" />
+    <ClInclude Include="stage9_1.h" />
+    <ClInclude Include="starWarsScene.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="timeManager.h" />
+    <ClInclude Include="timer.h" />
+    <ClInclude Include="torielbattle.h" />
+    <ClInclude Include="torieldie.h" />
+    <ClInclude Include="torielgarden.h" />
+    <ClInclude Include="torielhome.h" />
+    <ClInclude Include="torielroom.h" />
+    <ClInclude Include="txtData.h" />
+    <ClInclude Include="undertorielhome_1.h" />
+    <ClInclude Include="undertorielhome_2.h" />
+    <ClInclude Include="undertorielhome_3.h" />
+    <ClInclude Include="undertorielhome_4.h" />
+    <ClInclude Include="utils.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="action.cpp" />
+    <ClCompile Include="actionManager.cpp" />
+    <ClCompile Include="actionTest.cpp" />
+    <ClCompile Include="animation.cpp" />
+    <ClCompile Include="aStar.cpp" />
+    <ClCompile Include="battle.cpp" />
+    <ClCompile Include="BnS.cpp" />
+    <ClCompile Include="bullets.cpp" />
+    <ClCompile Include="button.cpp" />
+    <ClCompile Include="camera.cpp" />
+    <ClCompile Include="carrier.cpp" />
+    <ClCompile Include="database.cpp" />
+    <ClCompile Include="dummy.cpp" />
+    <ClCompile Include="effect.cpp" />
+    <ClCompile Include="effectManager.cpp" />
+    <ClCompile Include="effectTest.cpp" />
+    <ClCompile Include="ending.cpp" />
+    <ClCompile Include="enemy.cpp" />
+    <ClCompile Include="enemyManager.cpp" />
+    <ClCompile Include="firstbattle.cpp" />
+    <ClCompile Include="gameNode.cpp" />
+    <ClCompile Include="gameStudy.cpp" />
+    <ClCompile Include="ghostGoblinScene.cpp" />
+    <ClCompile Include="image.cpp" />
+    <ClCompile Include="imageManager.cpp" />
+    <ClCompile Include="jump.cpp" />
+    <ClCompile Include="keyAnimationManager.cpp" />
+    <ClCompile Include="keyManager.cpp" />
+    <ClCompile Include="kitchen.cpp" />
+    <ClCompile Include="knight.cpp" />
+    <ClCompile Include="last.cpp" />
+    <ClCompile Include="leftroom.cpp" />
+    <ClCompile Include="minion.cpp" />
+    <ClCompile Include="molbattle.cpp" />
+    <ClCompile Include="monster1.cpp" />
+    <ClCompile Include="monster2.cpp" />
+    <ClCompile Include="myroom.cpp" />
+    <ClCompile Include="nobody.cpp" />
+    <ClCompile Include="opening.cpp" />
+    <ClCompile Include="pixelCollision.cpp" />
+    <ClCompile Include="player.cpp" />
+    <ClCompile Include="playerdie.cpp" />
+    <ClCompile Include="progressBar.cpp" />
+    <ClCompile Include="rightroom.cpp" />
+    <ClCompile Include="sceneManager.cpp" />
+    <ClCompile Include="selectScene.cpp" />
+    <ClCompile Include="ship.cpp" />
+    <ClCompile Include="shipManager.cpp" />
+    <ClCompile Include="soundManager.cpp" />
+    <ClCompile Include="space.cpp" />
+    <ClCompile Include="spaceShip.cpp" />
+    <ClCompile Include="stage1.cpp" />
+    <ClCompile Include="stage10.cpp" />
+    <ClCompile Include="stage11.cpp" />
+    <ClCompile Include="stage12.cpp" />
+    <ClCompile Include="stage13.cpp" />
+    <ClCompile Include="stage14.cpp" />
+    <ClCompile Include="stage15.cpp" />
+    <ClCompile Include="stage15battle.cpp" />
+    <ClCompile Include="stage15_store.cpp" />
+    <ClCompile Include="stage16.cpp" />
+    <ClCompile Include="stage17.cpp" />
+    <ClCompile Include="stage18.cpp" />
+    <ClCompile Include="stage18_21_traproom.cpp" />
+    <ClCompile Include="stage19.cpp" />
+    <ClCompile Include="stage2.cpp" />
+    <ClCompile Include="stage20.cpp" />
+    <ClCompile Include="stage21.cpp" />
+    <ClCompile Include="stage22.cpp" />
+    <ClCompile Include="stage22_1.cpp" />
+    <ClCompile Include="stage22_2.cpp" />
+    <ClCompile Include="stage2_1.cpp" />
+    <ClCompile Include="stage3.cpp" />
+    <ClCompile Include="stage4.cpp" />
+    <ClCompile Include="stage5.cpp" />
+    <ClCompile Include="stage6.cpp" />
+    <ClCompile Include="stage7.cpp" />
+    <ClCompile Include="stage7battle.cpp" />
+    <ClCompile Include="stage8.cpp" />
+    <ClCompile Include="stage9.cpp" />
+    <ClCompile Include="stage9_1.cpp" />
+    <ClCompile Include="starWarsScene.cpp" />
+    <ClCompile Include="timeManager.cpp" />
+    <ClCompile Include="timer.cpp" />
+    <ClCompile Include="torielbattle.cpp" />
+    <ClCompile Include="torieldie.cpp" />
+    <ClCompile Include="torielgarden.cpp" />
+    <ClCompile Include="torielhome.cpp" />
+    <ClCompile Include="torielroom.cpp" />
+    <ClCompile Include="txtData.cpp" />
+    <ClCompile Include="undertorielhome_1.cpp" />
+    <ClCompile Include="undertorielhome_2.cpp" />
+    <ClCompile Include="undertorielhome_3.cpp" />
+    <ClCompile Include="undertorielhome_4.cpp" />
+    <ClCompile Include="utils.cpp" />
+    <ClCompile Include="winMain.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

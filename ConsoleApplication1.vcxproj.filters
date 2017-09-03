@@ -1,0 +1,702 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="GameFramework2D">
+      <UniqueIdentifier>{9027630e-676d-4608-95b4-0169bff1cdd7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameFramework2D\Managers">
+      <UniqueIdentifier>{25018839-79b6-49eb-99e4-2fd9341e3d49}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gameStudy">
+      <UniqueIdentifier>{8d43c7ec-7851-491a-922c-8c66c8c45adc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameFramework2D\image">
+      <UniqueIdentifier>{22cf40c1-bb58-4ab0-890b-48a86d625909}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameFramework2D\utils">
+      <UniqueIdentifier>{dea4089c-0777-4b56-a9e2-be47b982643c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gameStudy\bullets">
+      <UniqueIdentifier>{53f7f853-aaed-4377-8f56-f8efe3d614c0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gameStudy\starwarsScene">
+      <UniqueIdentifier>{14ff23ef-e561-483f-8bae-a3bbe03750fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gameStudy\enemy">
+      <UniqueIdentifier>{2bf07083-dafe-48f3-9334-4b104350dc65}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameFramework2D\timer">
+      <UniqueIdentifier>{cc281109-c30a-4b48-830e-7a839d96aaba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameFramework2D\txtData">
+      <UniqueIdentifier>{2da987a7-58d4-4bd1-b708-3dc1a9a3c2a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameFramework2D\progressBar">
+      <UniqueIdentifier>{451f5777-80e1-473e-b5d9-8d5f63bc614f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameFramework2D\effect">
+      <UniqueIdentifier>{e5448ab7-1848-4388-9e27-cc7da72e677d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameFramework2D\animation">
+      <UniqueIdentifier>{fc4f553d-b4e5-4ae3-8dfb-199c9e04a138}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gameStudy\aniTest">
+      <UniqueIdentifier>{5c17307b-4232-4de8-910c-7cf09473109a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gameStudy\effectTest">
+      <UniqueIdentifier>{6f03e5ee-d150-4553-9931-380dabc3a8ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gameStudy\pixelCollision">
+      <UniqueIdentifier>{65625420-1f12-447d-8294-01d40ada5cbe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameFramework2D\action">
+      <UniqueIdentifier>{378f62d5-12c5-439b-b10b-7192ba6c398f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gameStudy\actionTest">
+      <UniqueIdentifier>{35e74eb3-2ee4-4379-b544-4922b4ad1f0d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameFramework2D\button">
+      <UniqueIdentifier>{894109fa-08b5-4ead-bfbb-23b05a7e51f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gameStudy\selectScene">
+      <UniqueIdentifier>{50de2ea1-8e2f-4546-8eb0-407707d0fceb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameFramework2D\database">
+      <UniqueIdentifier>{dc7aee72-1631-42ad-b3b6-6705fdcbe8e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gameStudy\aStar">
+      <UniqueIdentifier>{3297bffd-807f-4838-875e-f3ae0661752c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gameStudy\ghostGoblinScene">
+      <UniqueIdentifier>{6d277b70-38ed-476d-a472-bef1cb33276a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gameStudy\Undertale">
+      <UniqueIdentifier>{e3698d32-f446-4a90-9232-ed5494c2ff16}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gameStudy\Undertale\stage">
+      <UniqueIdentifier>{154bcb98-0d57-48d5-899c-69fa5a70472a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gameStudy\Undertale\camera">
+      <UniqueIdentifier>{7b2afaf7-1380-42d1-8723-9a9e45e8e0e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gameStudy\Undertale\battle">
+      <UniqueIdentifier>{24bd9533-8782-4450-ab5c-b9f4ba0223e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gameStudy\Undertale\stage\torielroom">
+      <UniqueIdentifier>{e2494529-7194-4896-ae2c-f71836bafc96}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gameStudy\Undertale\stage\torielroom\under">
+      <UniqueIdentifier>{6f2a82fa-0484-44f0-abcd-8373509ea4a2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="commonMacroFunction.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="singletonBase.h">
+      <Filter>GameFramework2D\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="gameNode.h">
+      <Filter>GameFramework2D</Filter>
+    </ClInclude>
+    <ClInclude Include="gameStudy.h">
+      <Filter>gameStudy</Filter>
+    </ClInclude>
+    <ClInclude Include="keyManager.h">
+      <Filter>GameFramework2D\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="image.h">
+      <Filter>GameFramework2D\image</Filter>
+    </ClInclude>
+    <ClInclude Include="utils.h">
+      <Filter>GameFramework2D\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="imageManager.h">
+      <Filter>GameFramework2D\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="bullets.h">
+      <Filter>gameStudy\bullets</Filter>
+    </ClInclude>
+    <ClInclude Include="spaceShip.h">
+      <Filter>gameStudy\starwarsScene</Filter>
+    </ClInclude>
+    <ClInclude Include="enemy.h">
+      <Filter>gameStudy\enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="minion.h">
+      <Filter>gameStudy\enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="enemyManager.h">
+      <Filter>gameStudy\enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="timer.h">
+      <Filter>GameFramework2D\timer</Filter>
+    </ClInclude>
+    <ClInclude Include="timeManager.h">
+      <Filter>GameFramework2D\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="txtData.h">
+      <Filter>GameFramework2D\txtData</Filter>
+    </ClInclude>
+    <ClInclude Include="progressBar.h">
+      <Filter>GameFramework2D\progressBar</Filter>
+    </ClInclude>
+    <ClInclude Include="effect.h">
+      <Filter>GameFramework2D\effect</Filter>
+    </ClInclude>
+    <ClInclude Include="animation.h">
+      <Filter>GameFramework2D\animation</Filter>
+    </ClInclude>
+    <ClInclude Include="BnS.h">
+      <Filter>gameStudy\aniTest</Filter>
+    </ClInclude>
+    <ClInclude Include="effectManager.h">
+      <Filter>GameFramework2D\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="effectTest.h">
+      <Filter>gameStudy\effectTest</Filter>
+    </ClInclude>
+    <ClInclude Include="pixelCollision.h">
+      <Filter>gameStudy\pixelCollision</Filter>
+    </ClInclude>
+    <ClInclude Include="soundManager.h">
+      <Filter>GameFramework2D\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="action.h">
+      <Filter>GameFramework2D\action</Filter>
+    </ClInclude>
+    <ClInclude Include="actionTest.h">
+      <Filter>gameStudy\actionTest</Filter>
+    </ClInclude>
+    <ClInclude Include="battle.h">
+      <Filter>gameStudy\starwarsScene</Filter>
+    </ClInclude>
+    <ClInclude Include="ship.h">
+      <Filter>gameStudy\starwarsScene</Filter>
+    </ClInclude>
+    <ClInclude Include="carrier.h">
+      <Filter>gameStudy\starwarsScene</Filter>
+    </ClInclude>
+    <ClInclude Include="starWarsScene.h">
+      <Filter>gameStudy\starwarsScene</Filter>
+    </ClInclude>
+    <ClInclude Include="sceneManager.h">
+      <Filter>GameFramework2D\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="button.h">
+      <Filter>GameFramework2D\button</Filter>
+    </ClInclude>
+    <ClInclude Include="selectScene.h">
+      <Filter>gameStudy\selectScene</Filter>
+    </ClInclude>
+    <ClInclude Include="database.h">
+      <Filter>GameFramework2D\database</Filter>
+    </ClInclude>
+    <ClInclude Include="actionManager.h">
+      <Filter>GameFramework2D\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="aStar.h">
+      <Filter>gameStudy\aStar</Filter>
+    </ClInclude>
+    <ClInclude Include="space.h">
+      <Filter>gameStudy\starwarsScene</Filter>
+    </ClInclude>
+    <ClInclude Include="shipManager.h">
+      <Filter>gameStudy\starwarsScene</Filter>
+    </ClInclude>
+    <ClInclude Include="keyAnimationManager.h">
+      <Filter>GameFramework2D\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="ghostGoblinScene.h">
+      <Filter>gameStudy\ghostGoblinScene</Filter>
+    </ClInclude>
+    <ClInclude Include="knight.h">
+      <Filter>gameStudy\ghostGoblinScene</Filter>
+    </ClInclude>
+    <ClInclude Include="jump.h">
+      <Filter>gameStudy\ghostGoblinScene</Filter>
+    </ClInclude>
+    <ClInclude Include="player.h">
+      <Filter>gameStudy\Undertale</Filter>
+    </ClInclude>
+    <ClInclude Include="stage1.h">
+      <Filter>gameStudy\Undertale\stage</Filter>
+    </ClInclude>
+    <ClInclude Include="camera.h">
+      <Filter>gameStudy\Undertale\camera</Filter>
+    </ClInclude>
+    <ClInclude Include="stage2.h">
+      <Filter>gameStudy\Undertale\stage</Filter>
+    </ClInclude>
+    <ClInclude Include="firstbattle.h">
+      <Filter>gameStudy\Undertale\battle</Filter>
+    </ClInclude>
+    <ClInclude Include="stage3.h">
+      <Filter>gameStudy\Undertale\stage</Filter>
+    </ClInclude>
+    <ClInclude Include="stage4.h">
+      <Filter>gameStudy\Undertale\stage</Filter>
+    </ClInclude>
+    <ClInclude Include="stage5.h">
+      <Filter>gameStudy\Undertale\stage</Filter>
+    </ClInclude>
+    <ClInclude Include="stage2_1.h">
+      <Filter>gameStudy\Undertale\stage</Filter>
+    </ClInclude>
+    <ClInclude Include="stage6.h">
+      <Filter>gameStudy\Undertale\stage</Filter>
+    </ClInclude>
+    <ClInclude Include="dummy.h">
+      <Filter>gameStudy\Undertale\battle</Filter>
+    </ClInclude>
+    <ClInclude Include="stage7.h">
+      <Filter>gameStudy\Undertale\stage</Filter>
+    </ClInclude>
+    <ClInclude Include="stage8.h">
+      <Filter>gameStudy\Undertale\stage</Filter>
+    </ClInclude>
+    <ClInclude Include="stage7battle.h">
+      <Filter>gameStudy\Undertale\battle</Filter>
+    </ClInclude>
+    <ClInclude Include="stage9.h">
+      <Filter>gameStudy\Undertale\stage</Filter>
+    </ClInclude>
+    <ClInclude Include="stage9_1.h">
+      <Filter>gameStudy\Undertale\stage</Filter>
+    </ClInclude>
+    <ClInclude Include="stage10.h">
+      <Filter>gameStudy\Undertale\stage</Filter>
+    </ClInclude>
+    <ClInclude Include="stage11.h">
+      <Filter>gameStudy\Undertale\stage</Filter>
+    </ClInclude>
+    <ClInclude Include="stage12.h">
+      <Filter>gameStudy\Undertale\stage</Filter>
+    </ClInclude>
+    <ClInclude Include="stage13.h">
+      <Filter>gameStudy\Undertale\stage</Filter>
+    </ClInclude>
+    <ClInclude Include="stage14.h">
+      <Filter>gameStudy\Undertale\stage</Filter>
+    </ClInclude>
+    <ClInclude Include="stage15.h">
+      <Filter>gameStudy\Undertale\stage</Filter>
+    </ClInclude>
+    <ClInclude Include="stage15battle.h">
+      <Filter>gameStudy\Undertale\battle</Filter>
+    </ClInclude>
+    <ClInclude Include="stage15_store.h">
+      <Filter>gameStudy\Undertale\stage</Filter>
+    </ClInclude>
+    <ClInclude Include="stage16.h">
+      <Filter>gameStudy\Undertale\stage</Filter>
+    </ClInclude>
+    <ClInclude Include="stage17.h">
+      <Filter>gameStudy\Undertale\stage</Filter>
+    </ClInclude>
+    <ClInclude Include="stage18.h">
+      <Filter>gameStudy\Undertale\stage</Filter>
+    </ClInclude>
+    <ClInclude Include="stage19.h">
+      <Filter>gameStudy\Undertale\stage</Filter>
+    </ClInclude>
+    <ClInclude Include="stage20.h">
+      <Filter>gameStudy\Undertale\stage</Filter>
+    </ClInclude>
+    <ClInclude Include="stage21.h">
+      <Filter>gameStudy\Undertale\stage</Filter>
+    </ClInclude>
+    <ClInclude Include="stage18_21_traproom.h">
+      <Filter>gameStudy\Undertale\stage</Filter>
+    </ClInclude>
+    <ClInclude Include="stage22.h">
+      <Filter>gameStudy\Undertale\stage</Filter>
+    </ClInclude>
+    <ClInclude Include="stage22_2.h">
+      <Filter>gameStudy\Undertale\stage</Filter>
+    </ClInclude>
+    <ClInclude Include="stage22_1.h">
+      <Filter>gameStudy\Undertale\stage</Filter>
+    </ClInclude>
+    <ClInclude Include="torielgarden.h">
+      <Filter>gameStudy\Undertale\stage\torielroom</Filter>
+    </ClInclude>
+    <ClInclude Include="torielhome.h">
+      <Filter>gameStudy\Undertale\stage\torielroom</Filter>
+    </ClInclude>
+    <ClInclude Include="kitchen.h">
+      <Filter>gameStudy\Undertale\stage\torielroom</Filter>
+    </ClInclude>
+    <ClInclude Include="leftroom.h">
+      <Filter>gameStudy\Undertale\stage\torielroom</Filter>
+    </ClInclude>
+    <ClInclude Include="myroom.h">
+      <Filter>gameStudy\Undertale\stage\torielroom</Filter>
+    </ClInclude>
+    <ClInclude Include="rightroom.h">
+      <Filter>gameStudy\Undertale\stage\torielroom</Filter>
+    </ClInclude>
+    <ClInclude Include="torielroom.h">
+      <Filter>gameStudy\Undertale\stage\torielroom</Filter>
+    </ClInclude>
+    <ClInclude Include="undertorielhome_1.h">
+      <Filter>gameStudy\Undertale\stage\torielroom\under</Filter>
+    </ClInclude>
+    <ClInclude Include="undertorielhome_2.h">
+      <Filter>gameStudy\Undertale\stage\torielroom\under</Filter>
+    </ClInclude>
+    <ClInclude Include="undertorielhome_3.h">
+      <Filter>gameStudy\Undertale\stage\torielroom\under</Filter>
+    </ClInclude>
+    <ClInclude Include="undertorielhome_4.h">
+      <Filter>gameStudy\Undertale\stage\torielroom\under</Filter>
+    </ClInclude>
+    <ClInclude Include="torielbattle.h">
+      <Filter>gameStudy\Undertale\battle</Filter>
+    </ClInclude>
+    <ClInclude Include="torieldie.h">
+      <Filter>gameStudy\Undertale\battle</Filter>
+    </ClInclude>
+    <ClInclude Include="molbattle.h">
+      <Filter>gameStudy\Undertale\battle</Filter>
+    </ClInclude>
+    <ClInclude Include="monster1.h">
+      <Filter>gameStudy\Undertale\battle</Filter>
+    </ClInclude>
+    <ClInclude Include="monster2.h">
+      <Filter>gameStudy\Undertale\battle</Filter>
+    </ClInclude>
+    <ClInclude Include="nobody.h">
+      <Filter>gameStudy\Undertale\battle</Filter>
+    </ClInclude>
+    <ClInclude Include="opening.h">
+      <Filter>gameStudy\Undertale</Filter>
+    </ClInclude>
+    <ClInclude Include="last.h">
+      <Filter>gameStudy\Undertale\stage</Filter>
+    </ClInclude>
+    <ClInclude Include="randomFunction.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="ending.h">
+      <Filter>gameStudy\Undertale</Filter>
+    </ClInclude>
+    <ClInclude Include="playerdie.h">
+      <Filter>gameStudy\Undertale\battle</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="winMain.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="gameNode.cpp">
+      <Filter>GameFramework2D</Filter>
+    </ClCompile>
+    <ClCompile Include="gameStudy.cpp">
+      <Filter>gameStudy</Filter>
+    </ClCompile>
+    <ClCompile Include="keyManager.cpp">
+      <Filter>GameFramework2D\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="image.cpp">
+      <Filter>GameFramework2D\image</Filter>
+    </ClCompile>
+    <ClCompile Include="utils.cpp">
+      <Filter>GameFramework2D\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="imageManager.cpp">
+      <Filter>GameFramework2D\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="bullets.cpp">
+      <Filter>gameStudy\bullets</Filter>
+    </ClCompile>
+    <ClCompile Include="spaceShip.cpp">
+      <Filter>gameStudy\starwarsScene</Filter>
+    </ClCompile>
+    <ClCompile Include="enemy.cpp">
+      <Filter>gameStudy\enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="minion.cpp">
+      <Filter>gameStudy\enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="enemyManager.cpp">
+      <Filter>gameStudy\enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="timer.cpp">
+      <Filter>GameFramework2D\timer</Filter>
+    </ClCompile>
+    <ClCompile Include="timeManager.cpp">
+      <Filter>GameFramework2D\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="txtData.cpp">
+      <Filter>GameFramework2D\txtData</Filter>
+    </ClCompile>
+    <ClCompile Include="progressBar.cpp">
+      <Filter>GameFramework2D\progressBar</Filter>
+    </ClCompile>
+    <ClCompile Include="effect.cpp">
+      <Filter>GameFramework2D\effect</Filter>
+    </ClCompile>
+    <ClCompile Include="animation.cpp">
+      <Filter>GameFramework2D\animation</Filter>
+    </ClCompile>
+    <ClCompile Include="BnS.cpp">
+      <Filter>gameStudy\aniTest</Filter>
+    </ClCompile>
+    <ClCompile Include="effectManager.cpp">
+      <Filter>GameFramework2D\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="effectTest.cpp">
+      <Filter>gameStudy\effectTest</Filter>
+    </ClCompile>
+    <ClCompile Include="pixelCollision.cpp">
+      <Filter>gameStudy\pixelCollision</Filter>
+    </ClCompile>
+    <ClCompile Include="soundManager.cpp">
+      <Filter>GameFramework2D\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="action.cpp">
+      <Filter>GameFramework2D\action</Filter>
+    </ClCompile>
+    <ClCompile Include="actionTest.cpp">
+      <Filter>gameStudy\actionTest</Filter>
+    </ClCompile>
+    <ClCompile Include="battle.cpp">
+      <Filter>gameStudy\starwarsScene</Filter>
+    </ClCompile>
+    <ClCompile Include="ship.cpp">
+      <Filter>gameStudy\starwarsScene</Filter>
+    </ClCompile>
+    <ClCompile Include="carrier.cpp">
+      <Filter>gameStudy\starwarsScene</Filter>
+    </ClCompile>
+    <ClCompile Include="starWarsScene.cpp">
+      <Filter>gameStudy\starwarsScene</Filter>
+    </ClCompile>
+    <ClCompile Include="sceneManager.cpp">
+      <Filter>GameFramework2D\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="button.cpp">
+      <Filter>GameFramework2D\button</Filter>
+    </ClCompile>
+    <ClCompile Include="selectScene.cpp">
+      <Filter>gameStudy\selectScene</Filter>
+    </ClCompile>
+    <ClCompile Include="database.cpp">
+      <Filter>GameFramework2D\database</Filter>
+    </ClCompile>
+    <ClCompile Include="actionManager.cpp">
+      <Filter>GameFramework2D\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="aStar.cpp">
+      <Filter>gameStudy\aStar</Filter>
+    </ClCompile>
+    <ClCompile Include="space.cpp">
+      <Filter>gameStudy\starwarsScene</Filter>
+    </ClCompile>
+    <ClCompile Include="shipManager.cpp">
+      <Filter>gameStudy\starwarsScene</Filter>
+    </ClCompile>
+    <ClCompile Include="keyAnimationManager.cpp">
+      <Filter>GameFramework2D\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="ghostGoblinScene.cpp">
+      <Filter>gameStudy\ghostGoblinScene</Filter>
+    </ClCompile>
+    <ClCompile Include="knight.cpp">
+      <Filter>gameStudy\ghostGoblinScene</Filter>
+    </ClCompile>
+    <ClCompile Include="jump.cpp">
+      <Filter>gameStudy\ghostGoblinScene</Filter>
+    </ClCompile>
+    <ClCompile Include="player.cpp">
+      <Filter>gameStudy\Undertale</Filter>
+    </ClCompile>
+    <ClCompile Include="stage1.cpp">
+      <Filter>gameStudy\Undertale\stage</Filter>
+    </ClCompile>
+    <ClCompile Include="camera.cpp">
+      <Filter>gameStudy\Undertale\camera</Filter>
+    </ClCompile>
+    <ClCompile Include="stage2.cpp">
+      <Filter>gameStudy\Undertale\stage</Filter>
+    </ClCompile>
+    <ClCompile Include="firstbattle.cpp">
+      <Filter>gameStudy\Undertale\battle</Filter>
+    </ClCompile>
+    <ClCompile Include="stage3.cpp">
+      <Filter>gameStudy\Undertale\stage</Filter>
+    </ClCompile>
+    <ClCompile Include="stage4.cpp">
+      <Filter>gameStudy\Undertale\stage</Filter>
+    </ClCompile>
+    <ClCompile Include="stage5.cpp">
+      <Filter>gameStudy\Undertale\stage</Filter>
+    </ClCompile>
+    <ClCompile Include="stage2_1.cpp">
+      <Filter>gameStudy\Undertale\stage</Filter>
+    </ClCompile>
+    <ClCompile Include="stage6.cpp">
+      <Filter>gameStudy\Undertale\stage</Filter>
+    </ClCompile>
+    <ClCompile Include="dummy.cpp">
+      <Filter>gameStudy\Undertale\battle</Filter>
+    </ClCompile>
+    <ClCompile Include="stage7.cpp">
+      <Filter>gameStudy\Undertale\stage</Filter>
+    </ClCompile>
+    <ClCompile Include="stage8.cpp">
+      <Filter>gameStudy\Undertale\stage</Filter>
+    </ClCompile>
+    <ClCompile Include="stage7battle.cpp">
+      <Filter>gameStudy\Undertale\battle</Filter>
+    </ClCompile>
+    <ClCompile Include="stage9.cpp">
+      <Filter>gameStudy\Undertale\stage</Filter>
+    </ClCompile>
+    <ClCompile Include="stage9_1.cpp">
+      <Filter>gameStudy\Undertale\stage</Filter>
+    </ClCompile>
+    <ClCompile Include="stage10.cpp">
+      <Filter>gameStudy\Undertale\stage</Filter>
+    </ClCompile>
+    <ClCompile Include="stage11.cpp">
+      <Filter>gameStudy\Undertale\stage</Filter>
+    </ClCompile>
+    <ClCompile Include="stage12.cpp">
+      <Filter>gameStudy\Undertale\stage</Filter>
+    </ClCompile>
+    <ClCompile Include="stage13.cpp">
+      <Filter>gameStudy\Undertale\stage</Filter>
+    </ClCompile>
+    <ClCompile Include="stage14.cpp">
+      <Filter>gameStudy\Undertale\stage</Filter>
+    </ClCompile>
+    <ClCompile Include="stage15.cpp">
+      <Filter>gameStudy\Undertale\stage</Filter>
+    </ClCompile>
+    <ClCompile Include="stage15battle.cpp">
+      <Filter>gameStudy\Undertale\battle</Filter>
+    </ClCompile>
+    <ClCompile Include="stage16.cpp">
+      <Filter>gameStudy\Undertale\stage</Filter>
+    </ClCompile>
+    <ClCompile Include="stage15_store.cpp">
+      <Filter>gameStudy\Undertale\stage</Filter>
+    </ClCompile>
+    <ClCompile Include="stage17.cpp">
+      <Filter>gameStudy\Undertale\stage</Filter>
+    </ClCompile>
+    <ClCompile Include="stage18.cpp">
+      <Filter>gameStudy\Undertale\stage</Filter>
+    </ClCompile>
+    <ClCompile Include="stage19.cpp">
+      <Filter>gameStudy\Undertale\stage</Filter>
+    </ClCompile>
+    <ClCompile Include="stage20.cpp">
+      <Filter>gameStudy\Undertale\stage</Filter>
+    </ClCompile>
+    <ClCompile Include="stage21.cpp">
+      <Filter>gameStudy\Undertale\stage</Filter>
+    </ClCompile>
+    <ClCompile Include="stage18_21_traproom.cpp">
+      <Filter>gameStudy\Undertale\stage</Filter>
+    </ClCompile>
+    <ClCompile Include="stage22.cpp">
+      <Filter>gameStudy\Undertale\stage</Filter>
+    </ClCompile>
+    <ClCompile Include="stage22_1.cpp">
+      <Filter>gameStudy\Undertale\stage</Filter>
+    </ClCompile>
+    <ClCompile Include="stage22_2.cpp">
+      <Filter>gameStudy\Undertale\stage</Filter>
+    </ClCompile>
+    <ClCompile Include="torielgarden.cpp">
+      <Filter>gameStudy\Undertale\stage\torielroom</Filter>
+    </ClCompile>
+    <ClCompile Include="torielhome.cpp">
+      <Filter>gameStudy\Undertale\stage\torielroom</Filter>
+    </ClCompile>
+    <ClCompile Include="kitchen.cpp">
+      <Filter>gameStudy\Undertale\stage\torielroom</Filter>
+    </ClCompile>
+    <ClCompile Include="leftroom.cpp">
+      <Filter>gameStudy\Undertale\stage\torielroom</Filter>
+    </ClCompile>
+    <ClCompile Include="myroom.cpp">
+      <Filter>gameStudy\Undertale\stage\torielroom</Filter>
+    </ClCompile>
+    <ClCompile Include="rightroom.cpp">
+      <Filter>gameStudy\Undertale\stage\torielroom</Filter>
+    </ClCompile>
+    <ClCompile Include="torielroom.cpp">
+      <Filter>gameStudy\Undertale\stage\torielroom</Filter>
+    </ClCompile>
+    <ClCompile Include="undertorielhome_1.cpp">
+      <Filter>gameStudy\Undertale\stage\torielroom\under</Filter>
+    </ClCompile>
+    <ClCompile Include="undertorielhome_2.cpp">
+      <Filter>gameStudy\Undertale\stage\torielroom\under</Filter>
+    </ClCompile>
+    <ClCompile Include="undertorielhome_3.cpp">
+      <Filter>gameStudy\Undertale\stage\torielroom\under</Filter>
+    </ClCompile>
+    <ClCompile Include="undertorielhome_4.cpp">
+      <Filter>gameStudy\Undertale\stage\torielroom\under</Filter>
+    </ClCompile>
+    <ClCompile Include="torielbattle.cpp">
+      <Filter>gameStudy\Undertale\battle</Filter>
+    </ClCompile>
+    <ClCompile Include="torieldie.cpp">
+      <Filter>gameStudy\Undertale\battle</Filter>
+    </ClCompile>
+    <ClCompile Include="molbattle.cpp">
+      <Filter>gameStudy\Undertale\battle</Filter>
+    </ClCompile>
+    <ClCompile Include="monster1.cpp">
+      <Filter>gameStudy\Undertale\battle</Filter>
+    </ClCompile>
+    <ClCompile Include="monster2.cpp">
+      <Filter>gameStudy\Undertale\battle</Filter>
+    </ClCompile>
+    <ClCompile Include="nobody.cpp">
+      <Filter>gameStudy\Undertale\battle</Filter>
+    </ClCompile>
+    <ClCompile Include="opening.cpp">
+      <Filter>gameStudy\Undertale</Filter>
+    </ClCompile>
+    <ClCompile Include="last.cpp">
+      <Filter>gameStudy\Undertale\stage</Filter>
+    </ClCompile>
+    <ClCompile Include="ending.cpp">
+      <Filter>gameStudy\Undertale</Filter>
+    </ClCompile>
+    <ClCompile Include="playerdie.cpp">
+      <Filter>gameStudy\Undertale\battle</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
